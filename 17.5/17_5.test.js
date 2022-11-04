@@ -1,5 +1,5 @@
-const sum = require('./17_5');
+const reverseStr = require('./17_5');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('reverse "Hello" to "olleH"', () => {
+  expect(reverseStr('Hello')).toBe('olleH');
 });

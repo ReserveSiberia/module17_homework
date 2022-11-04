@@ -1,4 +1,8 @@
-function sum(a, b) {
-    return a + b;
+function reverseStr(str) {
+    let resStr = str
+    let arrStr = resStr.split('')
+    let newArrStr = arrStr.reverse()
+    resStr = newArrStr.join('')
+    return resStr;
   }
-module.exports = sum;
+module.exports = reverseStr;
